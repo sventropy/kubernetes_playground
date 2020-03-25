@@ -11,7 +11,7 @@ brew cask install minikube
 
 Define vmware fusion as driver via
 ```
-minikube start --vm-driver vmware
+minikube start --vm-driver=vmwarefusion
 ```
 See [docs](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#vmware-unified-driver) for prerequisites (i.e. driver binary).
 
@@ -34,3 +34,9 @@ Logon with
 ssh pirate@<PI IP>
 ```
 and password _hypriot_
+
+## Replicated Stateful App
+
+Tutorial: https://kubernetes.io/docs/tasks/run-application/run-replicated-stateful-application/
+
+
